@@ -1,0 +1,149 @@
+/* ---------- Base ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.7;
+  color: #1f2d2b;
+  background-color: #f3f6f5;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  background: linear-gradient(135deg, #0b5d56, #2aa59c);
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+.site-header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* ---------- Main content ---------- */
+main {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 28px 32px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  color: #0b5d56;
+  margin-bottom: 14px;
+  border-bottom: 3px solid #2aa59c;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.card h3 {
+  color: #2aa59c;
+  margin-top: 16px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.hero-img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 15px auto;
+  border-radius: 10px;
+}
+
+ul {
+  margin: 12px 0 0 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #0b5d56;
+}
+
+a:hover {
+  color: #2aa59c;
+}
+
+.center {
+  text-align: center;
+}
+
+/* ---------- Button ---------- */
+button {
+  margin-top: 18px;
+  padding: 12px 32px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0b5d56;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2aa59c;
+  transform: translateY(-2px);
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0b5d56;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 600px) {
+  .site-header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 4px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
