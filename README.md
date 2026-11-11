@@ -24,4 +24,4 @@ A simple webpage that demonstrates the fundamentals of web development:
 Download or clone the repository and open `index.html` in any browser. No installation needed.
 
 ## Author
-Aakash
+Aakash Kumar Choudhary
